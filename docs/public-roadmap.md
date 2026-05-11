@@ -55,3 +55,15 @@ site -> partner lead -> CRM organization card -> discovery call -> proposal -> p
 
 Новые курсы, сложная LMS, paid portal и юридическое оформление рассматриваются только после test cohort, organization pilot и проверки financial model v1.
 
+## Strategic Direction: Private Embodied Companion AI Platform
+
+Отдельное перспективное направление Академии:
+
+```text
+Приватная AI-платформа близости, где персональный компаньон получает память, голос, характер и телесный отклик через устройства.
+```
+
+Базовый раздел: `docs/private-companion-platform/`.
+
+Направление развивается только через privacy, consent, adult-only, safety-governor and device-allowlist rules.
+

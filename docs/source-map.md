@@ -17,6 +17,8 @@
 | SRC-005 | `Education/Projects/ACADEMY_OF_AI_MANAGEMENT_BLUEPRINT.md` | internal blueprint | flagship course hypothesis, audience, modules | reviewed | allowed |
 | SRC-006 | `docs/github-access-policy.md` | internal governance policy | GitHub access isolation and ASAIAS-only remote rule | reviewed | allowed |
 | SRC-007 | `docs/github-local-wrapper.md` | internal operations policy | project-local GitHub CLI and SSH wrapper setup | reviewed | allowed |
+| SRC-008 | `docs/private-companion-platform/README.md` | internal direction baseline | private embodied companion AI platform direction | reviewed | allowed |
+| SRC-009 | `docs/private-companion-platform/oss-map.md` | internal OSS watchlist | memory, voice, persona and device repository map | reviewed | allowed |
 
 ## Incoming Sources Queue
 
