@@ -1,0 +1,20 @@
+.codex_tmp/
+.asaias-local/
+
+# Local/generated heavy outputs that should not enter the public baseline.
+faculty-presentations.zip
+Интеграция Codex в СНГ.pdf
+site/qa/
+site/presentations/
+presentations/out/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Local dependency/runtime folders
+node_modules/
+.venv/
+__pycache__/

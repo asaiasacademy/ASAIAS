@@ -1,0 +1,57 @@
+name: Baseline checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  required-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify academy baseline files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            "README.md"
+            "CONTRIBUTING.md"
+            "GOVERNANCE.md"
+            "docs/start-here.md"
+            "docs/public-roadmap.md"
+            "docs/academy-identity.md"
+            "docs/source-map.md"
+            "docs/courses/course-01.md"
+            "docs/certificates/certificate-01.md"
+            "docs/bulletins/research-bulletin-001.md"
+            "demos/demo-01/README.md"
+            "docs/finance/what-academy-sells.md"
+            "docs/finance/financial-model-v1.md"
+            "docs/finance/financial-model-map-v1.md"
+            "docs/finance/payment-and-treasury-policy-v1.md"
+            "docs/finance/money-flow-v1.md"
+            "docs/finance/pricing-page-draft.md"
+            "docs/intake/student-intake-form-v1.md"
+            "docs/intake/crm-card-schema-v1.md"
+            "docs/launch-logistics-model.md"
+          )
+
+          for file in "${required[@]}"; do
+            test -s "$file" || {
+              echo "Missing or empty required file: $file"
+              exit 1
+            }
+          done
+
+      - name: Verify no placeholder academy name remains
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -R "\[ACADEMY_NAME\]" README.md CONTRIBUTING.md GOVERNANCE.md docs demos .github/ISSUE_TEMPLATE .github/PULL_REQUEST_TEMPLATE.md; then
+            echo "Placeholder [ACADEMY_NAME] must be replaced before merge."
+            exit 1
+          fi
