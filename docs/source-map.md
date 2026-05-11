@@ -23,6 +23,10 @@
 | SRC-011 | `docs/open-source-media/ai-passport-privacy-consent-architecture.md` | external-facing thought piece | governance and consent architecture framing | reviewed | allowed |
 | SRC-012 | `docs/open-source-media/local-cores-open-protocols.md` | external-facing thought piece | local-core and federation strategy framing | reviewed | allowed |
 | SRC-013 | `docs/open-source-media/personal-ai-infra-index-notes-2600-rules.md` | external-facing style policy | editorial discipline for scenario communication | reviewed | allowed |
+| SRC-014 | `docs/open-source-media/community-qa-personal-ai-2040-2600.md` | external-facing thought piece | Q&A format from community perspective | reviewed | allowed |
+| SRC-015 | `docs/open-source-media/independent-note-2600-operators-field-journal.md` | external-facing thought piece | observational journal of infrastructure signals | reviewed | allowed |
+| SRC-016 | `docs/open-source-media/checklist-safe-ai-intimacy-layers.md` | external-facing thought piece | practical governance checklist | reviewed | allowed |
+| SRC-017 | `docs/open-source-media/postcard-community-open-protocol.md` | external-facing thought piece | short community card on proximity layer | reviewed | allowed |
 
 ## Incoming Sources Queue
 

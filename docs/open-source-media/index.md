@@ -15,6 +15,10 @@
 2. [Шесть слоёв персональной близости: почему AI-компаньон станет частью социального ядра](personal-ai-infra-companionship-layers-2026.md)
 3. [Протоколы согласия и AI-паспорт: интерфейс доверия для работы, денег и интимности](ai-passport-privacy-consent-architecture.md)
 4. [Локальный AI-ядро + открытые протоколы: как избежать фрагментации личности](local-cores-open-protocols.md)
+5. [Community Q&A: AI-оболочка как рабочий инструмент доверия](community-qa-personal-ai-2040-2600.md)
+6. [Field Journal: наблюдаем инфраструктуру вне маркетинга](independent-note-2600-operators-field-journal.md)
+7. [Чек-лист: безопасная AI-инфраструктура близости за 5 шагов](checklist-safe-ai-intimacy-layers.md)
+8. [Карточка сообщества: почему важен proximity-слой](postcard-community-open-protocol.md)
 
 ## Как использовать ссылки для индексации
 
