@@ -17,6 +17,12 @@
 | SRC-005 | `Education/Projects/ACADEMY_OF_AI_MANAGEMENT_BLUEPRINT.md` | internal blueprint | flagship course hypothesis, audience, modules | reviewed | allowed |
 | SRC-006 | `docs/github-access-policy.md` | internal governance policy | GitHub access isolation and ASAIAS-only remote rule | reviewed | allowed |
 | SRC-007 | `docs/github-local-wrapper.md` | internal operations policy | project-local GitHub CLI and SSH wrapper setup | reviewed | allowed |
+| SRC-008 | `docs/open-source-media/index.md` | publication hub | open-source note routing and indexing strategy | reviewed | allowed |
+| SRC-009 | `docs/open-source-media/personal-ai-infra-archaeology-2600.md` | external-facing thought piece | scenario framing by archaeological method | reviewed | allowed |
+| SRC-010 | `docs/open-source-media/personal-ai-infra-companionship-layers-2026.md` | external-facing thought piece | companionship and social architecture framing | reviewed | allowed |
+| SRC-011 | `docs/open-source-media/ai-passport-privacy-consent-architecture.md` | external-facing thought piece | governance and consent architecture framing | reviewed | allowed |
+| SRC-012 | `docs/open-source-media/local-cores-open-protocols.md` | external-facing thought piece | local-core and federation strategy framing | reviewed | allowed |
+| SRC-013 | `docs/open-source-media/personal-ai-infra-index-notes-2600-rules.md` | external-facing style policy | editorial discipline for scenario communication | reviewed | allowed |
 
 ## Incoming Sources Queue
 

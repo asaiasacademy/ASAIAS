@@ -88,6 +88,7 @@ docs/certificates/         модель проверки и сертификат
 docs/finance/              финансовая модель и платежный контур
 docs/intake/               заявки и CRM-схема
 docs/milestones/           запусковые этапы
+docs/open-source-media/     индексируемые открытые публикации по личной AI-инфраструктуре
 demos/                     учебные демонстрации
 site/assets/               публичные визуальные материалы README
 ```
@@ -135,6 +136,7 @@ GitHub-доступ должен оставаться проектным и ло
 
 - [Academy Identity](docs/academy-identity.md)
 - [Source Map](docs/source-map.md)
+- [Open-Source Media](docs/open-source-media/index.md)
 - [Site Blueprint](docs/site-blueprint-v1.md)
 - [Communication Channels](docs/communication-channels-v1.md)
 - [What Academy Sells](docs/finance/what-academy-sells.md)

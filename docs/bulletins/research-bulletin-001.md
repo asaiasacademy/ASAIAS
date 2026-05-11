@@ -55,5 +55,4 @@ Watchlist формируется без endorsement claims:
 2. Связать Bulletin 001 с Course 01.
 3. Собрать demo-01 как безопасный учебный пример.
 4. Создать review rubric для certificate-01.
-5. Выпустить Bulletin 002 после test cohort.
-
+5. Выпустить индексируемые публичные заметки в `docs/open-source-media/` после test cohort как альтернативу issue-формату.
