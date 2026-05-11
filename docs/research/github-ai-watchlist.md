@@ -16,7 +16,7 @@ GitHub account: `asaiasacademy`.
 
 Repository watch subscriptions: active.
 
-Developers / organizations follow: pending extra GitHub OAuth scope `user`.
+Developers / organizations follow: active.
 
 ## Subscribed Repositories
 
@@ -122,11 +122,9 @@ Developers / organizations follow: pending extra GitHub OAuth scope `user`.
 - `Shubhamsaboo/awesome-llm-apps`
 - `eugeneyan/applied-ml`
 
-## Developers And Organizations To Follow
+## Followed Developers And Organizations
 
-Following developers and organization accounts requires GitHub OAuth scope `user`.
-
-Pending list:
+ASAIAS follows these GitHub accounts through the project-local GitHub wrapper:
 
 - `openai`
 - `huggingface`
@@ -200,13 +198,9 @@ Avoid noisy watch additions:
 - abandoned repositories;
 - unsupported "AGI" marketing projects.
 
-## Follow-Up
+## Current Coverage
 
-To enable developer follow:
+- Watched repositories: 84.
+- Followed developers / organizations: 50.
 
-```powershell
-.\scripts\asaias-gh.cmd auth refresh -h github.com -s user
-```
-
-After approval, run follow automation through the ASAIAS wrapper only.
-
+All follow and watch operations must continue through the ASAIAS wrapper only.
