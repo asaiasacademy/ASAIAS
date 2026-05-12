@@ -10,11 +10,12 @@
 
 1. Freeze the release date.
 2. Refresh official source set.
-3. Update `AGESI`, `AGASI`, and `AGGRI`.
-4. Refresh `site/sitemap.xml`.
-5. Publish the site to `gh-pages`.
-6. Submit updated URLs through `IndexNow`.
-7. Verify live URLs and log the release.
+3. Update `AGESI`, `AGASI`, `AGGRI`, and `AGSVI`.
+4. Refresh the weekly archive pages.
+5. Refresh `site/sitemap.xml`.
+6. Publish the site to `gh-pages`.
+7. Submit updated URLs through `IndexNow`.
+8. Verify live URLs and log the release.
 
 ## Working Scripts
 
