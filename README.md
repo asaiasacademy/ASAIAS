@@ -145,6 +145,17 @@ one CRM route
 one test launch
 ```
 
+## Mandatory Ecosystem Layer
+
+ASAIAS must also maintain a required external intelligence layer before broad outreach or scaling:
+
+- a shortlist of 100 AI companies, platforms, speakers, conferences and communities;
+- an inbox review pass for AI newsletters, conference updates and potential contacts;
+- outreach templates for companies, organizers, speakers and partners;
+- a priority map of contacts and events.
+
+Protocol: [Ecosystem Intelligence Protocol](docs/ecosystem-intelligence-protocol.md).
+
 ## Public Boundaries
 
 ASAIAS does not currently claim:
@@ -169,6 +180,7 @@ GitHub access must stay project-local and isolated. See [GitHub Access Policy](d
 
 - [Academy Identity](docs/academy-identity.md)
 - [Source Map](docs/source-map.md)
+- [ASAIAS Indices](docs/indices/README.md)
 - [Open-Source Media](docs/open-source-media/index.md)
 - [Site Blueprint](docs/site-blueprint-v1.md)
 - [Communication Channels](docs/communication-channels-v1.md)
