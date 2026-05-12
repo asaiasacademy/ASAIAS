@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">ASAIAS GitHub academy showcase</title>
+  <desc id="desc">A sober academic GitHub banner for the Academy of Strategic Artificial Intelligence and Autonomous Systems Management.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfdfc"/>
+      <stop offset="0.58" stop-color="#eef5f3"/>
+      <stop offset="1" stop-color="#e7efe9"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#163e5a"/>
+      <stop offset="1" stop-color="#087f82"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#163e5a" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" fill="url(#paper)"/>
+  <path d="M0 438C136 408 224 432 338 398C492 352 584 248 756 254C944 262 1012 378 1200 328V520H0Z" fill="#dcebe6"/>
+  <path d="M0 58H1200" stroke="#c6d9d5" stroke-width="2"/>
+  <path d="M0 462H1200" stroke="#c6d9d5" stroke-width="2"/>
+
+  <g opacity=".45" stroke="#c0d4cf" stroke-width="1">
+    <path d="M120 0V520M240 0V520M360 0V520M480 0V520M600 0V520M720 0V520M840 0V520M960 0V520M1080 0V520"/>
+    <path d="M0 130H1200M0 260H1200M0 390H1200"/>
+  </g>
+
+  <g transform="translate(70 72)" filter="url(#softShadow)">
+    <rect width="290" height="290" rx="36" fill="#ffffff"/>
+    <rect x="24" y="24" width="242" height="242" rx="28" fill="#163e5a"/>
+    <path d="M70 88H220M70 145H220M70 202H220M96 62V228M145 62V228M194 62V228" stroke="#4c98a6" stroke-width="6" opacity=".42"/>
+    <circle cx="145" cy="145" r="76" fill="#fbfdfc" stroke="#d8e6e2" stroke-width="8"/>
+    <path d="M101 187L136 101H156L191 187H168L162 170H130L124 187H101ZM136 153H155L145 123L136 153Z" fill="#163e5a"/>
+    <path d="M194 110C207 110 219 114 228 122L216 139C210 134 203 131 195 131C187 131 181 134 177 138C173 143 171 149 171 157C171 166 173 172 178 177C182 181 188 184 197 184C205 184 213 181 219 176L230 193C220 201 208 205 194 205C179 205 168 201 159 192C150 183 145 171 145 157C145 142 150 131 159 122C168 114 180 110 194 110Z" fill="#087f82"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" fill="#101719">
+    <text x="410" y="118" font-size="22" font-weight="700" fill="#3c7456">PUBLIC PILOT BASELINE</text>
+    <text x="410" y="178" font-size="64" font-weight="900">ASAIAS</text>
+    <text x="410" y="226" font-size="30" font-weight="800" fill="#163e5a">Academy of Strategic AI and Autonomous Systems Management</text>
+    <text x="410" y="270" font-size="23" font-weight="600" fill="#334246">AI governance · agent architectures · risk maps · review workflows</text>
+  </g>
+
+  <g transform="translate(410 324)" font-family="Segoe UI, Inter, Arial, sans-serif">
+    <g>
+      <rect width="164" height="58" rx="14" fill="#163e5a"/>
+      <text x="82" y="35" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Start Here</text>
+    </g>
+    <g transform="translate(184 0)">
+      <rect width="164" height="58" rx="14" fill="#087f82"/>
+      <text x="82" y="35" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Course 01</text>
+    </g>
+    <g transform="translate(368 0)">
+      <rect width="164" height="58" rx="14" fill="#3c7456"/>
+      <text x="82" y="35" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Demo 01</text>
+    </g>
+    <g transform="translate(552 0)">
+      <rect width="190" height="58" rx="14" fill="#b27633"/>
+      <text x="95" y="35" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Review Path</text>
+    </g>
+    <path d="M164 29H184M348 29H368M532 29H552" stroke="#64777a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(72 412)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700">
+    <rect width="1056" height="56" rx="18" fill="#ffffff" opacity=".86"/>
+    <text x="34" y="36" fill="#163e5a">one entrance</text>
+    <text x="200" y="36" fill="#087f82">one course</text>
+    <text x="356" y="36" fill="#3c7456">one demo</text>
+    <text x="504" y="36" fill="#b27633">one certificate review</text>
+    <text x="762" y="36" fill="#334246">one test launch</text>
+  </g>
+</svg>

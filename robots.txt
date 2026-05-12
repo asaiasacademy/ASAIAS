@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asaiasacademy.github.io/ASAIAS/sitemap.xml

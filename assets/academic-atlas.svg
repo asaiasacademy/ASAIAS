@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Академический атлас</title>
+  <desc id="desc">Схема связи академии, факультетов, кафедр, курсов, методики, библиотеки и книг.</desc>
+  <rect width="960" height="620" fill="#fbfdfc"/>
+  <path d="M0 70H960M0 140H960M0 210H960M0 280H960M0 350H960M0 420H960M0 490H960M0 560H960M80 0V620M160 0V620M240 0V620M320 0V620M400 0V620M480 0V620M560 0V620M640 0V620M720 0V620M800 0V620M880 0V620" stroke="#d7e1de" stroke-width="1"/>
+  <circle cx="480" cy="310" r="92" fill="#ffffff" stroke="#1d5d86" stroke-width="3"/>
+  <text x="480" y="298" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" font-weight="800" fill="#163e5a">Академия</text>
+  <text x="480" y="329" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" fill="#58676a">стратегическое управление ИИ</text>
+  <g fill="none" stroke="#1d5d86" stroke-width="2" opacity=".52">
+    <path d="M480 218C480 156 396 128 308 116"/>
+    <path d="M560 264C650 208 721 196 802 200"/>
+    <path d="M572 345C664 380 731 434 792 508"/>
+    <path d="M480 402C471 472 413 524 318 548"/>
+    <path d="M389 344C304 388 232 424 150 428"/>
+    <path d="M394 264C302 220 243 178 171 116"/>
+  </g>
+  <g font-family="Segoe UI, Arial" font-size="18" font-weight="800">
+    <rect x="180" y="78" width="220" height="78" rx="8" fill="#eaf2f1" stroke="#b8cbc6"/>
+    <text x="290" y="111" text-anchor="middle" fill="#101719">Факультеты</text>
+    <text x="290" y="136" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">крупные области знания</text>
+    <rect x="662" y="162" width="224" height="78" rx="8" fill="#eef3f7" stroke="#bdcbd5"/>
+    <text x="774" y="195" text-anchor="middle" fill="#101719">Кафедры</text>
+    <text x="774" y="220" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">дисциплины и исследования</text>
+    <rect x="664" y="470" width="218" height="78" rx="8" fill="#f8efe5" stroke="#d8c1a8"/>
+    <text x="773" y="503" text-anchor="middle" fill="#101719">Курсы</text>
+    <text x="773" y="528" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">маршруты и задания</text>
+    <rect x="198" y="510" width="236" height="78" rx="8" fill="#edf3ec" stroke="#bbceb9"/>
+    <text x="316" y="543" text-anchor="middle" fill="#101719">Методика</text>
+    <text x="316" y="568" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">обучение и проверка</text>
+    <rect x="54" y="390" width="220" height="78" rx="8" fill="#f6efec" stroke="#d4beb5"/>
+    <text x="164" y="423" text-anchor="middle" fill="#101719">Библиотека</text>
+    <text x="164" y="448" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">материалы и справочники</text>
+    <rect x="48" y="78" width="226" height="78" rx="8" fill="#f4f1e8" stroke="#d7cda9"/>
+    <text x="161" y="111" text-anchor="middle" fill="#101719">Книги</text>
+    <text x="161" y="136" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">корпус знания</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Логотип Академии стратегического управления ИИ и автономных систем</title>
+  <desc id="desc">Проектный логотип академии: знак АС и полное русское название.</desc>
+  <rect width="960" height="320" fill="none"/>
+  <g transform="translate(42 42)">
+    <rect width="236" height="236" rx="54" fill="#163e5a"/>
+    <path d="M46 72H190M46 118H190M46 164H190M72 46V190M118 46V190M164 46V190" stroke="#2f7895" stroke-width="6" opacity=".5"/>
+    <circle cx="118" cy="118" r="74" fill="#fbfdfc" stroke="#cfe0dc" stroke-width="7"/>
+    <path d="M75 158L109 76H128L162 158H140L134 141H103L97 158H75ZM109 124H128L118 96L109 124Z" fill="#163e5a"/>
+    <path d="M164 85C177 85 188 89 197 97L186 113C180 108 173 106 165 106C158 106 153 108 149 112C145 116 143 122 143 130C143 138 145 144 149 148C153 152 159 154 167 154C175 154 182 151 188 146L198 162C189 170 178 174 164 174C151 174 140 170 132 162C124 154 120 143 120 130C120 116 124 105 132 97C140 89 150 85 164 85Z" fill="#087f82" opacity=".95"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" transform="translate(330 70)">
+    <text x="0" y="42" font-size="28" font-weight="800" fill="#3c7456">Академия</text>
+    <text x="0" y="94" font-size="38" font-weight="900" fill="#101719">стратегического управления</text>
+    <text x="0" y="140" font-size="33" font-weight="800" fill="#163e5a">искусственным интеллектом</text>
+    <text x="0" y="184" font-size="31" font-weight="800" fill="#087f82">и автономными системами</text>
+    <text x="0" y="226" font-size="17" font-weight="700" fill="#58676a">академическая рамка · методология · AI governance</text>
+  </g>
+</svg>
