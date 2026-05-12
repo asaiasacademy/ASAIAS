@@ -10,7 +10,7 @@
 
 1. Freeze the release date.
 2. Refresh official source set.
-3. Update `AGESI`, `AGASI`, `AGGRI`, `AGSVI`, and `AGELI`.
+3. Update `AGFLI`, `AGESI`, `AGASI`, `AGGRI`, `AGSVI`, and `AGELI`.
 4. Refresh the weekly archive pages.
 5. Refresh the public universe expansion bulletin when the tracked universe changes.
 6. Refresh `site/sitemap.xml`.
