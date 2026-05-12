@@ -10,3 +10,4 @@
 
 - `docs/indices/global-indices-framework-v1.md`
 - `docs/indices/weekly-ranking-algorithm-v1.md`
+- `docs/indices/weekly-publication-and-reindex-protocol.md`
