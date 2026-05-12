@@ -10,12 +10,13 @@
 
 1. Freeze the release date.
 2. Refresh official source set.
-3. Update `AGESI`, `AGASI`, `AGGRI`, and `AGSVI`.
+3. Update `AGESI`, `AGASI`, `AGGRI`, `AGSVI`, and `AGELI`.
 4. Refresh the weekly archive pages.
-5. Refresh `site/sitemap.xml`.
-6. Publish the site to `gh-pages`.
-7. Submit updated URLs through `IndexNow`.
-8. Verify live URLs and log the release.
+5. Refresh the public universe expansion bulletin when the tracked universe changes.
+6. Refresh `site/sitemap.xml`.
+7. Publish the site to `gh-pages`.
+8. Submit updated URLs through `IndexNow`.
+9. Verify live URLs and log the release.
 
 ## Working Scripts
 
