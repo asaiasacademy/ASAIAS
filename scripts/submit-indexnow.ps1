@@ -16,12 +16,24 @@ $body = @{
   urlList = $urls
 } | ConvertTo-Json -Depth 4
 
-$response = Invoke-WebRequest `
-  -Uri "https://api.indexnow.org/indexnow" `
-  -Method Post `
-  -ContentType "application/json; charset=utf-8" `
-  -Body $body `
-  -UseBasicParsing `
-  -TimeoutSec 60
+try {
+  $response = Invoke-WebRequest `
+    -Uri "https://api.indexnow.org/indexnow" `
+    -Method Post `
+    -ContentType "application/json; charset=utf-8" `
+    -Body $body `
+    -UseBasicParsing `
+    -TimeoutSec 60
 
-Write-Output "IndexNow status: $($response.StatusCode)"
+  Write-Output "IndexNow status: $($response.StatusCode)"
+} catch {
+  if ($_.Exception.Response) {
+    $statusCode = [int]$_.Exception.Response.StatusCode
+    if ($statusCode -eq 403) {
+      Write-Warning "IndexNow rejected the submission with 403. The site is still published; this likely reflects a host or key-validation limitation for the current public setup."
+      exit 0
+    }
+  }
+
+  throw
+}
