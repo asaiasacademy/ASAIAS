@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Академия стратегического управления ИИ и автономных систем</title>
+    <meta
+      name="description"
+      content="Академическая, образовательная, исследовательская и методологическая рамка для стратегического управления ИИ, автономными системами и агентными архитектурами."
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'; manifest-src 'self'; worker-src 'self'"
+    />
+    <meta name="theme-color" content="#163e5a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Академия ИИ" />
+    <link rel="manifest" href="./manifest.webmanifest?v=5" />
+    <link rel="apple-touch-icon" href="./assets/app-icon.svg?v=5" />
+    <link rel="stylesheet" href="./styles.css?v=5" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+    <header class="topbar" data-topbar>
+      <a class="brand" href="#top" aria-label="Главная страница академии">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="./assets/logo-symbol.svg" alt="" />
+        </span>
+        <span class="brand-copy">
+          <strong>Академия стратегического управления</strong>
+          <small>ИИ · автономные системы · AI governance</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
+
+      <nav id="site-nav" aria-label="Основная навигация">
+        <a href="#academy">Академия</a>
+        <a href="#faculties">Факультеты</a>
+        <a href="#departments">Кафедры</a>
+        <a href="#courses">Курсы</a>
+        <a href="./publications/">Публикации</a>
+        <a href="./indices/index.html">Индексы</a>
+        <a href="#presentations">Презентации</a>
+        <a href="#methodology">Методика</a>
+        <a href="#library">Библиотека</a>
+        <a href="#books">Книги</a>
+        <a href="#brandbook">Брендбук</a>
+        <a href="#merch">Мерч</a>
+        <a href="#app">Приложение</a>
+        <a href="#audit">Проверка</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="asset-showcase" aria-labelledby="asset-showcase-title">
+        <div class="asset-showcase-inner">
+          <div class="asset-logo-panel">
+            <span class="eyebrow">Логотип · изображения · презентации</span>
+            <img src="./assets/logo-asaias.svg?v=5" alt="Логотип Академии стратегического управления искусственным интеллектом и автономных систем" />
+            <h2 id="asset-showcase-title">Все визуальные материалы поставлены в верх сайта.</h2>
+            <p>Логотип, сгенерированные изображения, мерч и презентации факультетов доступны сразу, без поиска внизу страницы.</p>
+            <div class="asset-actions">
+              <a class="button primary" href="#presentations">Скачать презентации</a>
+              <a class="button" href="./publications/">Открыть публикации</a>
+            </div>
+          </div>
+          <div class="asset-image-grid">
+            <figure>
+              <img src="./assets/hero-academy-command-center.png?v=5" alt="Академический командный центр ИИ и автономных систем" />
+              <figcaption>Главное изображение</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/merch-academy-mockup.png?v=5" alt="Проектный мерч академии" />
+              <figcaption>Мерчендайзинг</figcaption>
+            </figure>
+            <figure>
+              <img src="./assets/presentation-previews/01-Факультет-стратегического-управления-ИИ.png?v=6" alt="Обложка презентации факультета стратегического управления ИИ" />
+              <figcaption>Презентации факультетов</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="top" class="hero" aria-labelledby="hero-title">
+        <canvas class="network-canvas" data-network-canvas aria-hidden="true"></canvas>
+
+        <div class="hero-shell">
+          <div class="hero-copy">
+            <img class="hero-logo-lockup" src="./assets/logo-asaias.svg?v=5" alt="Академия стратегического управления искусственным интеллектом и автономных систем" />
+            <p class="eyebrow">Академическая рамка · версия 0.1</p>
+            <h1 id="hero-title">Стратегическое управление ИИ и автономными системами как образовательная система.</h1>
+            <p class="lead">
+              Академия проектируется как среда для тех, кто должен понимать, проектировать,
+              проверять и управлять ИИ, автономными системами, агентными архитектурами,
+              рисками, ответственностью и институциональным внедрением.
+            </p>
+            <div class="hero-actions" aria-label="Ключевые переходы">
+              <a class="button primary" href="#faculties">Открыть карту факультетов</a>
+              <a class="button" href="#methodology">Смотреть методику</a>
+            </div>
+          </div>
+
+          <aside class="command-board" aria-label="Академический атлас">
+            <div class="board-header">
+              <span>Академический атлас</span>
+              <strong>проектная гипотеза</strong>
+            </div>
+            <figure class="hero-visual">
+              <img src="./assets/hero-academy-command-center.png?v=5" alt="Академический командный центр для стратегического управления ИИ и автономными системами" />
+            </figure>
+            <div class="system-diagram" aria-hidden="true">
+              <div class="diagram-axis vertical"></div>
+              <div class="diagram-axis horizontal"></div>
+              <div class="diagram-core">
+                <span>Академия</span>
+              </div>
+              <span class="node n1">Факультеты</span>
+              <span class="node n2">Кафедры</span>
+              <span class="node n3">Курсы</span>
+              <span class="node n4">Методика</span>
+              <span class="node n5">Библиотека</span>
+              <span class="node n6">Книги</span>
+            </div>
+            <div class="board-grid" aria-label="Сводка системы">
+              <article><span>Факультеты</span><strong>6</strong><small>предложены как гипотеза</small></article>
+              <article><span>Кафедры</span><strong>12</strong><small>связаны с курсами</small></article>
+              <article><span>Языки</span><strong>10</strong><small>для будущих локализаций</small></article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="academy" class="section academy-section" aria-labelledby="academy-title">
+        <div class="section-head">
+          <p class="eyebrow">Академическое определение</p>
+          <h2 id="academy-title">Проект сначала описывает систему знания, а уже потом форму публичного представления.</h2>
+          <p>
+            Текущая версия сайта опирается на `build.spec` и `MASTER_PROMPT.md`. Отдельный корпус
+            материалов папки «Академия» не обнаружен, поэтому факультеты, кафедры, курсы,
+            лаборатории и книги показаны как структура для согласования.
+          </p>
+        </div>
+
+        <div class="definition-grid">
+          <article>
+            <span>Проблема</span>
+            <p>Развитие ИИ и автономных систем опережает образовательные, управленческие и институциональные рамки их осмысленного применения.</p>
+          </article>
+          <article>
+            <span>Миссия</span>
+            <p>Дать язык, методику, риск-карты и образовательные траектории для ответственной работы с ИИ и автономными системами.</p>
+          </article>
+          <article>
+            <span>Статус</span>
+            <p>Исследовательская и образовательная инициатива. Аккредитация, государственный статус и партнерства не заявляются без подтверждения.</p>
+          </article>
+        </div>
+
+        <div class="visual-gallery" aria-label="Визуальные карты академии">
+          <figure>
+            <img src="./assets/academic-atlas.svg?v=5" alt="Академический атлас: академия, факультеты, кафедры, курсы, методика, библиотека и книги" />
+            <figcaption>Академический атлас</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/governance-map.svg?v=5" alt="Карта управления ИИ: стратегия, автономность, проверка, ответственность и внедрение" />
+            <figcaption>Карта управления ИИ</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/risk-map.svg?v=5" alt="Карта рисков: данные, модель, автономность, человек, институция и последствия" />
+            <figcaption>Карта рисков</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section philosophy-section" aria-labelledby="philosophy-title">
+        <div class="section-head compact">
+          <p class="eyebrow">Образовательная философия</p>
+          <h2 id="philosophy-title">ИИ изучается как объект управления, проверки, ответственности и институционального проектирования.</h2>
+        </div>
+
+        <div class="principle-grid">
+          <article><span>01</span><h3>Понятийная дисциплина</h3><p>Различаются ИИ, автоматизация, автономность, агентность, человеческая ответственность и институциональное внедрение.</p></article>
+          <article><span>02</span><h3>Проектное мышление</h3><p>Каждый курс переводит понятия в архитектуру решения, карту рисков, протокол проверки или образовательный модуль.</p></article>
+          <article><span>03</span><h3>Проверяемость</h3><p>Результаты оцениваются через качество аргументации, тестовые сценарии, риск-карты и защиту итоговой работы.</p></article>
+          <article><span>04</span><h3>Ответственность</h3><p>Human-in-the-loop и human responsibility рассматриваются как проектируемые контуры, а не как декларация.</p></article>
+        </div>
+      </section>
+
+      <section id="faculties" class="section faculties-section" aria-labelledby="faculties-title">
+        <div class="section-head">
+          <p class="eyebrow">Карта факультетов</p>
+          <h2 id="faculties-title">Шесть факультетов задают крупные области подготовки и исследования.</h2>
+          <p>Выберите факультет, чтобы увидеть миссию, кафедры, курсы, исследования, библиотеку и книги.</p>
+        </div>
+
+        <div class="faculty-layout">
+          <div class="faculty-tabs" role="tablist" aria-label="Факультеты академии" data-faculty-tabs></div>
+          <article class="faculty-detail" data-faculty-detail aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section id="departments" class="section departments-section" aria-labelledby="departments-title">
+        <div class="section-head">
+          <p class="eyebrow">Кафедры</p>
+          <h2 id="departments-title">Кафедры переводят факультеты в дисциплины, методики, лаборатории и книги.</h2>
+          <p>Каждая кафедра имеет область ответственности, исследовательские темы, курсы, методические материалы и связь с библиотекой.</p>
+        </div>
+
+        <div class="department-table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Кафедра</th>
+                <th>Ответственность</th>
+                <th>Курсы</th>
+                <th>Лаборатория</th>
+              </tr>
+            </thead>
+            <tbody data-department-rows></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="presentations" class="section presentations-section" aria-labelledby="presentations-title">
+        <div class="section-head">
+          <p class="eyebrow">Презентации факультетов</p>
+          <h2 id="presentations-title">Для каждого факультета создана отдельная презентация на пять слайдов.</h2>
+          <p>Все презентации используют изображения, визуализацию, академический стиль и безопасные формулировки без заявлений о статусах, партнерствах или гарантиях.</p>
+        </div>
+
+        <div class="presentation-grid">
+          <article>
+            <img src="./assets/presentation-previews/01-Факультет-стратегического-управления-ИИ.png?v=6" alt="Обложка презентации факультета стратегического управления ИИ" />
+            <strong>Стратегическое управление ИИ</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/01-Факультет-стратегического-управления-ИИ.pptx" download>Скачать</a>
+          </article>
+          <article>
+            <img src="./assets/presentation-previews/02-Факультет-автономных-систем-и-агентных-архитектур.png?v=6" alt="Обложка презентации факультета автономных систем и агентных архитектур" />
+            <strong>Автономные системы и агентные архитектуры</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/02-Факультет-автономных-систем-и-агентных-архитектур.pptx" download>Скачать</a>
+          </article>
+          <article>
+            <img src="./assets/presentation-previews/03-Факультет-доверия-безопасности-и-верификации.png?v=6" alt="Обложка презентации факультета доверия, безопасности и верификации" />
+            <strong>Доверие, безопасность и верификация</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/03-Факультет-доверия-безопасности-и-верификации.pptx" download>Скачать</a>
+          </article>
+          <article>
+            <img src="./assets/presentation-previews/04-Факультет-образовательных-технологий-и-просвещения.png?v=6" alt="Обложка презентации факультета образовательных технологий и просвещения" />
+            <strong>Образовательные технологии и просвещение</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/04-Факультет-образовательных-технологий-и-просвещения.pptx" download>Скачать</a>
+          </article>
+          <article>
+            <img src="./assets/presentation-previews/05-Факультет-методологии-сценариев-и-институционального-проектирования.png?v=6" alt="Обложка презентации факультета методологии, сценариев и институционального проектирования" />
+            <strong>Методология, сценарии и институциональное проектирование</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/05-Факультет-методологии-сценариев-и-институционального-проектирования.pptx" download>Скачать</a>
+          </article>
+          <article>
+            <img src="./assets/presentation-previews/06-Факультет-AI-governance-и-общественных-последствий.png?v=6" alt="Обложка презентации факультета AI governance и общественных последствий" />
+            <strong>AI governance и общественные последствия</strong>
+            <span>5 слайдов · PPTX</span>
+            <a class="button" href="./presentations/06-Факультет-AI-governance-и-общественных-последствий.pptx" download>Скачать</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="courses" class="section courses-section" aria-labelledby="courses-title">
+        <div class="section-head">
+          <p class="eyebrow">Система курсов</p>
+          <h2 id="courses-title">Курсы строятся вокруг компетенций, практики, исследования и проверки.</h2>
+          <p>Матрица показывает связь курса с факультетом, кафедрой, библиотекой и книжным корпусом.</p>
+        </div>
+
+        <div class="course-board">
+          <div class="course-list" data-course-list aria-label="Список курсов"></div>
+          <article class="course-detail" data-course-detail aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section id="methodology" class="section methodology-section" aria-labelledby="methodology-title">
+        <div class="section-head">
+          <p class="eyebrow">Методика обучения и проверки</p>
+          <h2 id="methodology-title">Пять вопросов удерживают ИИ в зоне понимания, контроля и ответственности.</h2>
+          <p>Методика связывает обучение с проектированием, проверкой качества, human-in-the-loop и институциональной совместимостью.</p>
+        </div>
+
+        <div class="method-grid">
+          <article><span>01</span><h3>Что делает система?</h3><p>Функция, контекст, данные, ограничения, ожидаемый результат и условия применения.</p></article>
+          <article><span>02</span><h3>Где начинается автономность?</h3><p>Граница между инструментом, автоматизацией, агентностью и самостоятельным действием.</p></article>
+          <article><span>03</span><h3>Кто отвечает за результат?</h3><p>Роли человека, команды, организации, поставщика и технического контура.</p></article>
+          <article><span>04</span><h3>Как проверяется качество?</h3><p>Метрики, тесты, экспертная проверка, риск-карта, сценарии отказов и документация.</p></article>
+          <article><span>05</span><h3>Как встроить ИИ без потери смысла?</h3><p>Связь технологии с образовательной, общественной или управленческой задачей.</p></article>
+        </div>
+
+        <div class="method-flow" aria-label="Циклы методики">
+          <span>Глоссарий</span>
+          <span>Карта компетенций</span>
+          <span>Риск-карта</span>
+          <span>Проектная лаборатория</span>
+          <span>Проверка качества</span>
+          <span>Итоговая защита</span>
+        </div>
+      </section>
+
+      <section id="publications" class="section publications-section" aria-labelledby="publications-title">
+        <div class="section-head">
+          <p class="eyebrow">Публичные тексты</p>
+          <h2 id="publications-title">Эссе, исследование и прикладная публикация уже вынесены в отдельные индексируемые страницы на шести языках.</h2>
+          <p>
+            Этот блок создан как открытый редакционный слой академии: материалы можно читать,
+            цитировать, передавать по ссылке и включать в поисковый индекс после публикации сайта.
+            Для каждого материала действует языковое правило: текст, превью и любые надписи рядом с ним должны совпадать по языку.
+          </p>
+        </div>
+
+        <div class="publication-grid">
+          <article class="publication-card">
+            <span class="meta-label">Эссе</span>
+            <h3>Стратегическое управление ИИ как новая базовая грамотность институтов</h3>
+            <p>О том, почему ИИ перестал быть только инструментом разработчиков и стал предметом управленческой и образовательной ответственности.</p>
+            <a class="button" href="./publications/essay-strategic-ai-literacy.html">Открыть эссе</a>
+          </article>
+          <article class="publication-card">
+            <span class="meta-label">Исследование</span>
+            <h3>Контуры ответственности в автономных системах</h3>
+            <p>Исследовательская рамка для описания автономности, распределения ответственности и процедур проверки в сложных системах.</p>
+            <a class="button" href="./publications/research-responsibility-contours-autonomous-systems.html">Открыть исследование</a>
+          </article>
+          <article class="publication-card">
+            <span class="meta-label">Публикация</span>
+            <h3>Пять шагов к AI-native академии</h3>
+            <p>Короткая практическая карта для образовательной организации, которая хочет перейти от разговоров об ИИ к внятной архитектуре внедрения.</p>
+            <a class="button" href="./publications/publication-five-steps-ai-native-academy.html">Открыть публикацию</a>
+          </article>
+        </div>
+
+        <div class="publication-cta">
+          <a class="button primary" href="./publications/">Открыть все публикации</a>
+        </div>
+      </section>
+
+      <section id="widgets" class="section widgets-section" aria-labelledby="widgets-title">
+        <div class="section-head">
+          <p class="eyebrow">Активные виджеты</p>
+          <h2 id="widgets-title">Сайт содержит рабочие инструменты для академического проектирования.</h2>
+          <p>Виджеты помогают собрать траекторию, оценить риск и проверить полноту академической структуры.</p>
+        </div>
+
+        <div class="widget-grid">
+          <article class="widget trajectory-widget">
+            <div class="widget-head">
+              <span>Виджет траектории</span>
+              <h3>Конструктор образовательного маршрута</h3>
+            </div>
+            <label>
+              Аудитория
+              <select data-audience-select>
+                <option value="managers">Управленцы</option>
+                <option value="teachers">Преподаватели</option>
+                <option value="researchers">Исследователи</option>
+                <option value="developers">Разработчики AI-проектов</option>
+                <option value="institutions">Образовательные организации</option>
+              </select>
+            </label>
+            <div class="widget-output" data-trajectory-output></div>
+          </article>
+
+          <article class="widget risk-widget">
+            <div class="widget-head">
+              <span>Виджет риска</span>
+              <h3>Быстрая риск-карта ИИ-системы</h3>
+            </div>
+            <div class="slider-row">
+              <label>Автономность <input type="range" min="1" max="5" value="3" data-risk-autonomy /></label>
+              <label>Влияние на людей <input type="range" min="1" max="5" value="4" data-risk-impact /></label>
+              <label>Проверяемость <input type="range" min="1" max="5" value="2" data-risk-verification /></label>
+            </div>
+            <div class="risk-meter" data-risk-meter>
+              <span></span>
+            </div>
+            <p class="widget-note" data-risk-output></p>
+          </article>
+
+          <article class="widget completeness-widget">
+            <div class="widget-head">
+              <span>Виджет полноты</span>
+              <h3>Проверка академического ядра</h3>
+            </div>
+            <div class="checklist" data-completeness-widget></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="library" class="section library-section" aria-labelledby="library-title">
+        <div class="section-head">
+          <p class="eyebrow">Библиотека академии</p>
+          <h2 id="library-title">Библиотека организует не ссылки, а академический контур материалов.</h2>
+          <p>Разделы библиотеки связаны с курсами, кафедрами, лабораториями и книжными сериями.</p>
+        </div>
+
+        <div class="library-grid" data-library-grid></div>
+      </section>
+
+      <section id="books" class="section books-section" aria-labelledby="books-title">
+        <div class="section-head">
+          <p class="eyebrow">Книжный корпус</p>
+          <h2 id="books-title">Книги формируют корпус знания академии: от учебников до атласов рисков.</h2>
+          <p>Все названия ниже являются проектными и требуют редакционного утверждения.</p>
+        </div>
+
+        <div class="book-grid" data-book-grid></div>
+      </section>
+
+      <section id="brandbook" class="section brandbook-section" aria-labelledby="brandbook-title">
+        <div class="section-head">
+          <p class="eyebrow">Брендбук</p>
+          <h2 id="brandbook-title">Визуальная система должна поддерживать академическую строгость, а не заменять содержание.</h2>
+          <p>Это первая версия брендбука: логотип, палитра, типографика, изображения, графики, мерч и правила корректных формулировок.</p>
+        </div>
+
+        <div class="brandbook-grid">
+          <article class="logo-card">
+            <span class="meta-label">Логотип</span>
+            <img src="./assets/logo-asaias.svg?v=5" alt="Логотип Академии стратегического управления ИИ и автономных систем" />
+            <p>Проектный знак «АС» объединяет академическую сетку, управленческий контур и тему искусственного интеллекта.</p>
+          </article>
+          <article>
+            <span class="meta-label">Палитра</span>
+            <div class="swatch-row">
+              <span style="--swatch:#163e5a">глубокий синий</span>
+              <span style="--swatch:#087f82">технологический бирюзовый</span>
+              <span style="--swatch:#3c7456">академический зеленый</span>
+              <span style="--swatch:#b27633">акцентный янтарный</span>
+              <span style="--swatch:#101719">графит</span>
+            </div>
+          </article>
+          <article>
+            <span class="meta-label">Типографика</span>
+            <h3>Строгая, читаемая, институциональная</h3>
+            <p>Используются системные гротески: Inter, Segoe UI, Arial. Никакой декоративной типографики, которая мешает академическому чтению.</p>
+          </article>
+          <article>
+            <span class="meta-label">Изображения</span>
+            <h3>Исследовательская среда и карты знания</h3>
+            <p>Допустимы реальные и сгенерированные изображения лабораторий, командных центров, книг, схем, риск-карт, интерфейсов и мерча.</p>
+          </article>
+          <article>
+            <span class="meta-label">Запрещено</span>
+            <p>Агрессивный киберпанк, роботы ради роботов, крипто-эстетика, рекламная вода, неподтвержденные статусы и обещания результата.</p>
+          </article>
+          <article>
+            <span class="meta-label">Документ</span>
+            <h3>BRAND_BOOK.md</h3>
+            <p>Полный брендбук хранится отдельным документом и должен обновляться вместе с мастер-промптом.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="merch" class="section merch-section" aria-labelledby="merch-title">
+        <div class="section-head">
+          <p class="eyebrow">Мерчендайзинг</p>
+          <h2 id="merch-title">Мерч проектируется как носитель академической культуры, а не как сувенирная витрина.</h2>
+          <p>Раздел мерча показывает возможные носители бренда. Производство, продажи и партнерства не заявляются без подтверждения.</p>
+        </div>
+
+        <div class="merch-layout">
+          <figure class="merch-image">
+            <img src="./assets/merch-academy-mockup.png?v=5" alt="Проектный мерч академии: блокнот, сумка, кружка, бейдж, значок и худи" />
+          </figure>
+          <div class="merch-list">
+            <article><span>01</span><strong>Академический блокнот</strong><p>Для проектных карт, риск-сценариев, заметок лабораторий и учебных заданий.</p></article>
+            <article><span>02</span><strong>Кружка и термостакан</strong><p>Спокойная институциональная айдентика для лекций, семинаров и рабочих встреч.</p></article>
+            <article><span>03</span><strong>Худи и футболка</strong><p>Минималистичный знак, без громких лозунгов и неподтвержденных статусов.</p></article>
+            <article><span>04</span><strong>Тотебэг и папка</strong><p>Носители для книг, методических материалов, лекционных комплектов и лабораторных карт.</p></article>
+            <article><span>05</span><strong>Бейдж, лента, значок</strong><p>Для событий, лабораторий, лекционных циклов и проектных семинаров.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="labs" class="section labs-section" aria-labelledby="labs-title">
+        <div class="section-head compact">
+          <p class="eyebrow">Исследовательские и проектные лаборатории</p>
+          <h2 id="labs-title">Лаборатории связывают обучение, исследование и практику проверки систем.</h2>
+        </div>
+
+        <div class="lab-lines" data-lab-lines></div>
+      </section>
+
+      <section id="paths" class="section paths-section" aria-labelledby="paths-title">
+        <div class="section-head">
+          <p class="eyebrow">Образовательные траектории</p>
+          <h2 id="paths-title">Разные аудитории входят в академию через разные задачи.</h2>
+          <p>Траектории не обещают карьерный результат. Они задают учебный и исследовательский маршрут.</p>
+        </div>
+
+        <div class="path-grid" data-path-grid></div>
+      </section>
+
+      <section id="compatibility" class="section compatibility-section" aria-labelledby="compatibility-title">
+        <div class="section-head">
+          <p class="eyebrow">Институциональная совместимость</p>
+          <h2 id="compatibility-title">Академия может быть предложена как рамка для образовательных, исследовательских и управленческих сред.</h2>
+          <p>Формулировки сохраняют осторожность: проект не заявляет неподтвержденный официальный статус, аккредитацию, партнерства или гарантии.</p>
+        </div>
+
+        <div class="claim-grid">
+          <article>
+            <span>Корректно</span>
+            <ul>
+              <li>проектируется как академическая рамка;</li>
+              <li>может стать основой для курсов и лабораторий;</li>
+              <li>потенциально совместима с образовательными и экспертными средами;</li>
+              <li>является исследовательской и образовательной инициативой.</li>
+            </ul>
+          </article>
+          <article>
+            <span>Нельзя без подтверждения</span>
+            <ul>
+              <li>заявлять официальную аккредитацию;</li>
+              <li>заявлять государственный статус;</li>
+              <li>заявлять партнерства;</li>
+              <li>обещать карьерный, финансовый или технологический результат.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="app" class="section app-section" aria-labelledby="app-title">
+        <div class="section-head">
+          <p class="eyebrow">iOS и Android</p>
+          <h2 id="app-title">Академический интерфейс сразу готовится как устанавливаемое приложение с сайта.</h2>
+          <p>PWA-слой не заявляет публикацию в App Store или Google Play. Он позволяет установить сайт как приложение на поддерживаемых устройствах.</p>
+        </div>
+
+        <div class="app-panel">
+          <div class="app-preview" aria-hidden="true">
+            <img src="./assets/app-icon.svg?v=5" alt="" />
+            <span>Академия ИИ</span>
+          </div>
+          <div class="app-copy">
+            <span class="meta-label">Мобильный слой</span>
+            <h3>Installable web app</h3>
+            <p>
+              В сайт добавлены манифест приложения, иконка, service worker и кнопка установки.
+              На Android поддерживаемые браузеры показывают установку автоматически. На iOS
+              приложение добавляется через действие «На экран Домой».
+            </p>
+            <div class="app-actions">
+              <button class="button primary" type="button" data-install-app>Установить приложение</button>
+              <span data-install-status>Если кнопка недоступна, используйте меню браузера.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="audit" class="section audit-section" aria-labelledby="audit-title">
+        <div class="section-head">
+          <p class="eyebrow">Проверка полноты</p>
+          <h2 id="audit-title">Сайт проверяет себя по академическому протоколу проекта.</h2>
+          <p>Фактом считается только подтвержденная рамка из проектных документов. Структурные элементы представлены как гипотеза для утверждения.</p>
+        </div>
+
+        <div class="audit-grid">
+          <article><span>Факультеты учтены</span><strong>да</strong></article>
+          <article><span>Кафедры учтены</span><strong>да</strong></article>
+          <article><span>Курсы учтены</span><strong>да</strong></article>
+          <article><span>Методика учтена</span><strong>да</strong></article>
+          <article><span>Библиотека учтена</span><strong>да</strong></article>
+          <article><span>Книги учтены</span><strong>да</strong></article>
+          <article><span>Языковая политика</span><strong>да</strong></article>
+          <article><span>Неподтвержденные статусы</span><strong>не заявлены</strong></article>
+        </div>
+
+        <div class="next-questions">
+          <h3>Что требует уточнения</h3>
+          <p>
+            Утвердить список факультетов и кафедр, выбрать первый пилотный курс,
+            определить статус книжного корпуса, приоритетные лаборатории, формат
+            итоговой проверки и порядок будущих локализаций.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>Академия стратегического управления искусственным интеллектом и автономных систем</strong>
+      <span>Академическая рамка · проектная гипотеза · русский язык · без неподтвержденных статусов</span>
+    </footer>
+
+    <script src="./script.js?v=5"></script>
+  </body>
+</html>

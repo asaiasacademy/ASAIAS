@@ -1,0 +1,53 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "site/**"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare publish bundle
+        run: |
+          mkdir -p _site
+          cp -R site/. _site/
+          mkdir -p _site/presentations
+          if [ -d presentations/out ]; then
+            find presentations/out -maxdepth 1 -type f -name '*.pptx' -exec cp "{}" _site/presentations/ \;
+          fi
+          if [ -f faculty-presentations.zip ]; then
+            cp faculty-presentations.zip "_site/presentations/00-Презентации-факультетов-Академии.zip"
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

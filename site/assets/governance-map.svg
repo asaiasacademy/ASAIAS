@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-labelledby="title desc">
+  <title id="title">Карта управления ИИ</title>
+  <desc id="desc">Пять контуров стратегического управления ИИ: стратегия, автономность, проверка, ответственность и внедрение.</desc>
+  <rect width="960" height="620" fill="#fbfdfc"/>
+  <path d="M90 500C200 292 322 182 480 160C636 181 760 292 870 500" fill="none" stroke="#d6e0dc" stroke-width="40" stroke-linecap="round"/>
+  <path d="M90 500C200 292 322 182 480 160" fill="none" stroke="#1d5d86" stroke-width="20" stroke-linecap="round"/>
+  <path d="M480 160C636 181 760 292 870 500" fill="none" stroke="#087f82" stroke-width="20" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Arial">
+    <circle cx="480" cy="160" r="74" fill="#ffffff" stroke="#1d5d86" stroke-width="3"/>
+    <text x="480" y="153" text-anchor="middle" font-size="24" font-weight="800" fill="#163e5a">AI governance</text>
+    <text x="480" y="181" text-anchor="middle" font-size="14" fill="#58676a">управление и правила</text>
+    <g font-size="18" font-weight="800" fill="#101719">
+      <rect x="50" y="442" width="180" height="94" rx="8" fill="#eef3f7" stroke="#bdcbd5"/>
+      <text x="140" y="480" text-anchor="middle">Стратегия</text>
+      <text x="140" y="506" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">задачи и решения</text>
+      <rect x="250" y="268" width="190" height="94" rx="8" fill="#eaf2f1" stroke="#b8cbc6"/>
+      <text x="345" y="306" text-anchor="middle">Автономность</text>
+      <text x="345" y="332" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">границы действия</text>
+      <rect x="520" y="268" width="190" height="94" rx="8" fill="#f8efe5" stroke="#d8c1a8"/>
+      <text x="615" y="306" text-anchor="middle">Проверка</text>
+      <text x="615" y="332" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">качество и safety</text>
+      <rect x="730" y="442" width="180" height="94" rx="8" fill="#f6efec" stroke="#d4beb5"/>
+      <text x="820" y="480" text-anchor="middle">Ответственность</text>
+      <text x="820" y="506" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">human responsibility</text>
+      <rect x="344" y="442" width="272" height="94" rx="8" fill="#edf3ec" stroke="#bbceb9"/>
+      <text x="480" y="480" text-anchor="middle">Институциональное внедрение</text>
+      <text x="480" y="506" text-anchor="middle" font-size="13" font-weight="600" fill="#58676a">образование, общество, управление</text>
+    </g>
+  </g>
+</svg>

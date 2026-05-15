@@ -1,0 +1,21 @@
+{
+  "name": "Академия стратегического управления ИИ и автономных систем",
+  "short_name": "Академия ИИ",
+  "description": "Академический интерфейс для факультетов, кафедр, курсов, методики, библиотеки, книг, риск-карт и AI governance.",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f3f5f1",
+  "theme_color": "#163e5a",
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "productivity", "reference"]
+}

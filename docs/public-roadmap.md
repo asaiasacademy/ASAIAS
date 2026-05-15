@@ -35,6 +35,16 @@
 - Apply / Join;
 - Contact.
 
+## Phase 02.5: Ecosystem Intelligence Baseline
+
+Цель: сделать обязательный внешний контур ASAIAS до масштабирования коммуникаций.
+
+- shortlist of 100 AI companies, platforms, speakers, conferences and communities;
+- inbox review for AI newsletters, conference updates and potential contacts;
+- outreach templates for companies, organizers, speakers and partners;
+- priority map of contacts and events;
+- review against `docs/ecosystem-intelligence-protocol.md`.
+
 ## Phase 03: Test Cohort
 
 Цель: провести один тестовый student path.
@@ -42,6 +52,16 @@
 ```text
 site -> application -> CRM card -> course -> demo -> evidence -> review -> certificate
 ```
+
+## Phase 03.5: Global Indices Baseline
+
+Цель: запустить первый официальный weekly index ASAIAS.
+
+- define index family;
+- approve methodology;
+- freeze first ranking universe;
+- run first weekly scoring pass;
+- publish first official weekly release.
 
 ## Phase 04: Organization Pilot
 
@@ -53,5 +73,4 @@ site -> partner lead -> CRM organization card -> discovery call -> proposal -> p
 
 ## Expansion Gate
 
-Новые курсы, сложная LMS, paid portal и юридическое оформление рассматриваются только после test cohort, organization pilot и проверки financial model v1.
-
+Новые курсы, сложная LMS, paid portal и юридическое оформление рассматриваются только после test cohort, organization pilot, проверки financial model v1 и выполнения ecosystem intelligence baseline.
