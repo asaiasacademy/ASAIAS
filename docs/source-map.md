@@ -35,6 +35,13 @@
 | SRC-023 | `https://digital-strategy.ec.europa.eu/en/news/first-meeting-signatory-taskforce-general-purpose-ai-code-practice` | official EU AI Office update | active signatory taskforce and implementation dialogue around GPAI code | reviewed | allowed |
 | SRC-024 | `https://developers.openai.com/api/docs/guides/agents` | official OpenAI developer docs | agents SDK concepts, guardrails, orchestration, observability and evaluation entry points | reviewed | allowed |
 | SRC-025 | `https://modelcontextprotocol.io/docs/getting-started/intro` | official MCP documentation | MCP as open-source standard for connecting AI applications to external systems | reviewed | allowed |
+| SRC-026 | `https://docs.langchain.com/oss/python/langgraph/overview` | official LangGraph documentation | durable stateful agent workflows, human-in-the-loop and orchestration patterns | reviewed | allowed |
+| SRC-027 | `https://docs.crewai.com/` | official CrewAI documentation | multi-agent workflow design, guardrails and production-oriented crew orchestration | reviewed | allowed |
+| SRC-028 | `https://microsoft.github.io/autogen/stable/` | official AutoGen documentation | multi-agent framework direction, runtime and agent coordination concepts | reviewed | allowed |
+| SRC-029 | `https://docs.haystack.deepset.ai/docs/intro` | official Haystack documentation | modular pipelines, agents and controlled orchestration in production AI workflows | reviewed | allowed |
+| SRC-030 | `https://arize.com/docs/phoenix` | official Phoenix documentation | observability, tracing and evaluation surfaces for AI systems | reviewed | allowed |
+| SRC-031 | `https://langfuse.com/docs/observability/overview` | official Langfuse documentation | tracing, prompt lifecycle and observability discipline for LLM systems | reviewed | allowed |
+| SRC-032 | `https://platform.openai.com/docs/guides/agent-evals` | official OpenAI documentation | evaluation loops and quality measurement for agent systems | reviewed | allowed |
 
 ## Incoming Sources Queue
 
