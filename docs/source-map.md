@@ -27,6 +27,14 @@
 | SRC-015 | `docs/open-source-media/independent-note-2600-operators-field-journal.md` | external-facing thought piece | observational journal of infrastructure signals | reviewed | allowed |
 | SRC-016 | `docs/open-source-media/checklist-safe-ai-intimacy-layers.md` | external-facing thought piece | practical governance checklist | reviewed | allowed |
 | SRC-017 | `docs/open-source-media/postcard-community-open-protocol.md` | external-facing thought piece | short community card on proximity layer | reviewed | allowed |
+| SRC-018 | `https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/` | official OpenAI guide | agent workflow design, orchestration logic, safe deployment framing | reviewed | allowed |
+| SRC-019 | `https://www.anthropic.com/news/model-context-protocol` | official Anthropic announcement | MCP as open standard for model-to-system connectivity | reviewed | allowed |
+| SRC-020 | `https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/` | official Google Developers Blog post | A2A as open protocol for agent interoperability | reviewed | allowed |
+| SRC-021 | `https://www.nist.gov/itl/ai-risk-management-framework` | official NIST framework page | AI risk management and critical infrastructure profile direction | reviewed | allowed |
+| SRC-022 | `https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai` | official EU AI Office page | GPAI Code of Practice as compliance and trust layer | reviewed | allowed |
+| SRC-023 | `https://digital-strategy.ec.europa.eu/en/news/first-meeting-signatory-taskforce-general-purpose-ai-code-practice` | official EU AI Office update | active signatory taskforce and implementation dialogue around GPAI code | reviewed | allowed |
+| SRC-024 | `https://developers.openai.com/api/docs/guides/agents` | official OpenAI developer docs | agents SDK concepts, guardrails, orchestration, observability and evaluation entry points | reviewed | allowed |
+| SRC-025 | `https://modelcontextprotocol.io/docs/getting-started/intro` | official MCP documentation | MCP as open-source standard for connecting AI applications to external systems | reviewed | allowed |
 
 ## Incoming Sources Queue
 
@@ -35,3 +43,5 @@
 | SRC-TBD-001 | external publication / article | public background | maintainer | pending |
 | SRC-TBD-002 | partner mention | partnership claim | maintainer | blocked until confirmed |
 | SRC-TBD-003 | research paper | bulletin evidence | research reviewer | pending |
+| SRC-TBD-004 | official conference or community page | ecosystem intelligence map | research reviewer | pending |
+| SRC-TBD-005 | official observability or evals source | trust and traceability memo | research reviewer | pending |
