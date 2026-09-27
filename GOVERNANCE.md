@@ -4,7 +4,7 @@
 
 ## Принцип
 
-Академия управляется как public proof-first educational project. Репозиторий является главным источником решений, но не хранит private student data.
+Академия управляется как public proof-first educational project. Нативная БЗ Bitrix24 является главным источником решений и статусов Академии. Репозиторий хранит версионируемые публичные материалы и не хранит персональные данные слушателей.
 
 ## Decision Flow
 
@@ -14,7 +14,7 @@ issue -> branch -> pull request -> checks -> review -> merge -> public roadmap u
 
 ## GitHub Access Governance
 
-ASAIAS может быть подключен только к ASAIAS-owned GitHub remote через project-local SSH key/config/wrapper and local git identity. Любой remote, owner, SSH key или GitHub CLI account, не относящийся к ASAIAS, считается governance violation.
+ASIAISA может быть подключена только к проектному GitHub remote под владельцем `asaiasacademy` через project-local SSH key/config/wrapper and local git identity. Любой remote, owner, SSH key или GitHub CLI account, не относящийся к Академии ASIAISA, считается governance violation.
 
 Политика: `docs/github-access-policy.md`.
 
